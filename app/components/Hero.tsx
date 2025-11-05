@@ -13,7 +13,7 @@ export default function Hero() {
         <button className="border px-8 py-3 rounded-lg">
           Book a demo
         </button>
-        <button className="bg-blue text-white px-8 py-3 rounded-lg">
+        <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg">
           Try for free
         </button>
       </div>
