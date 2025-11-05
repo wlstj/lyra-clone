@@ -10,11 +10,11 @@ export default function Hero() {
       </p>
 
       <div className="flex gap-4 mt-10">
-        <button className="bg-black text-white px-8 py-3 rounded-lg">
-          Start for free
-        </button>
         <button className="border px-8 py-3 rounded-lg">
-          Book demo
+          Book a demo
+        </button>
+        <button className="bg-blue text-white px-8 py-3 rounded-lg">
+          Try for free
         </button>
       </div>
     </section>
