@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="w-full py-32 text-center flex flex-col items-center">
@@ -13,9 +14,11 @@ export default function Hero() {
         <button className="border px-8 py-3 rounded-lg">
           Book a demo
         </button>
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg">
-          Try for free
-        </button>
+        <Link href="/signup">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg">
+            Try for free
+          </button>
+        </Link>
       </div>
     </section>
   );
